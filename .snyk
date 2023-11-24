@@ -1,0 +1,183 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - stop-build > ggit > debug:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:debug:20170905'
+        path: stop-build > ggit > debug
+  'npm:hoek:20180212':
+    - request > hawk > hoek:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:hoek:20180212'
+        path: request > hawk > hoek
+    - request > hawk > boom > hoek:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:hoek:20180212'
+        path: request > hawk > boom > hoek
+    - request > hawk > sntp > hoek:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:hoek:20180212'
+        path: request > hawk > sntp > hoek
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:hoek:20180212'
+        path: request > hawk > cryptiles > boom > hoek
+  SNYK-JS-LODASH-567746:
+    - awesome-typescript-loader > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: awesome-typescript-loader > lodash
+    - css-loader > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: css-loader > lodash
+    - html-webpack-plugin > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: html-webpack-plugin > lodash
+    - babel-core > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > lodash
+    - eslint > table > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - babel-core > babel-generator > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-generator > lodash
+    - babel-core > babel-register > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-register > lodash
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-generator > babel-types > lodash
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-helpers > babel-template > lodash
+    - babel-core > babel-register > babel-core > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-register > babel-core > lodash
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-helpers > babel-template > babel-traverse > lodash
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-jest > babel-plugin-istanbul > istanbul-lib-instrument >
+          babel-template > lodash
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-jest > babel-plugin-istanbul > istanbul-lib-instrument >
+          babel-generator > lodash
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-jest > babel-plugin-istanbul > istanbul-lib-instrument >
+          babel-generator > babel-types > lodash
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-jest > babel-plugin-istanbul > istanbul-lib-instrument >
+          babel-template > babel-traverse > lodash
+    - eslint > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - eslint-plugin-json > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint-plugin-json > lodash
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > @jest/core > @jest/reporters > @jest/transform > @babel/core >
+          lodash
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > @jest/core > @jest/reporters > @jest/transform > @babel/core >
+          @babel/helper-module-transforms > lodash
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > @jest/core > @jest/reporters > @jest/transform > @babel/core >
+          @babel/generator > @babel/types > lodash
+    - jest > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > @jest/core > jest-config > jest-environment-jsdom > jsdom >
+          request-promise-native > request-promise-core > lodash
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > @jest/core > @jest/reporters > @jest/transform > @babel/core >
+          @babel/helper-module-transforms > @babel/helper-replace-supers >
+          @babel/traverse > lodash
+    - '@typescript-eslint/typescript-estree > lodash':
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@typescript-eslint/typescript-estree > lodash'
+    - eslint-plugin-jsdoc > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint-plugin-jsdoc > lodash
+    - webpack-bundle-analyzer > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-bundle-analyzer > lodash
+    - webpack-merge > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-merge > lodash
+    - '@typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - '@typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2023-11-24T08:44:54.384Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @typescript-eslint/parser > @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+  'npm:lodash:20180130':
+    - stop-build > ggit > lodash:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:lodash:20180130'
+        path: stop-build > ggit > lodash
+  'npm:moment:20170905':
+    - stop-build > ggit > moment:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:moment:20170905'
+        path: stop-build > ggit > moment
+  'npm:ms:20170412':
+    - stop-build > ggit > debug > ms:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:ms:20170412'
+        path: stop-build > ggit > debug > ms
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2023-11-24T08:44:54.384Z'
+        id: 'npm:stringstream:20180511'
+        path: request > stringstream
